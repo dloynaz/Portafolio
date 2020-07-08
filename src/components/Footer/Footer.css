@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+
+.footerItem:hover{
+    color: rgb(212, 212, 212);
+    transition: 0.3s ease-in-out;
+}
+
+.icon:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+}
+
+.footerList{
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    float: left;
+    margin: 2rem;
+}
+
+.footerItem{
+    color: white;
+    transition: 1s ease-in-out;
+    z-index: 1000;
+    margin: 10px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.footerBackground{
+    background-color: lightslategray;
+    display: grid;
+    grid-template-columns: 3fr 100px 100px;
+    grid-template-rows: 1fr;
+    padding-right: 5%;
+    min-width: 1000px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .footerBackground{
+        background-color: lightslategray;
+        display: grid;
+        grid-template-columns: 3fr 100px 100px;
+        grid-template-rows: 1fr;
+        padding-right: 5%;
+        min-width: 800px;
+        display: none;
+    
+    }
+}

@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+
+.NavItem:hover{
+    color: rgb(131, 130, 130);
+    transition: ease-in-out 0.5s;
+}
+.NavList{
+    display: flex;
+    list-style-type: none;
+    width: 300px;
+    float: right;
+    margin: 2rem;
+}
+
+.NavItem{
+    color: rgb(0, 0, 0);
+    transition: 1s ease-in-out;
+    z-index: 1000;
+    margin: 10px;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+
+
+.navBackground{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 1fr;
+    padding-right: 5%;
+}
+

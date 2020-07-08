@@ -1,0 +1,17 @@
+.Next:hover{
+    opacity: 0.4;
+}
+
+.Last:hover{
+    opacity: 0.4;
+}
+
+
+@media only screen and (max-width: 920px) {
+  .Next{
+      font-size: 0%;
+  }
+  .Last{
+    font-size: 0%;
+  }
+}

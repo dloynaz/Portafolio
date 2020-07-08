@@ -1,0 +1,12 @@
+export { default as Perfil1 } from './Favorita-5.JPG'
+export { default as Perfil2 } from './Favorita 2.JPG'
+export { default as Perfil3 } from './Favorita 3.JPG'
+export { default as Perfil4 } from './Favorita 4.JPG'
+export { default as Perfil5 } from './Favorita 6.JPG'
+export { default as Perfil6 } from './Favorita 7.JPG'
+export { default as Perfil7 } from './Favorita 9.JPG'
+export { default as Perfil8 } from './Favorita 10.JPG'
+export { default as Perfil9 } from './Favorita 11.JPG'
+export { default as Perfil10 } from './Favorita 12.JPG'
+export { default as Perfil11 } from './Favorita 13.JPG'
+

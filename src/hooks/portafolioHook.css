@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.clickButton:hover{
+  width:210px;
+  transition: 1s ease-in-out;
+}
+
+.portafolioGridContainer{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 0.1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3%;
+  column-gap: 6%;
+  max-width: 2000px;
+}
+.videoA{
+  grid-column-start: 1 ;
+  grid-column-end: 3;
+  justify-self: center;
+  grid-row-start: 1;
+  width: 1200px;
+  margin: 0px;
+  padding: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.infoA{
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column: 1;
+  align-self: start;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.5fr 3fr 0.5fr 0.5fr 0.3fr;
+  align-content: center;
+  border-top: solid thin;
+  border-bottom: solid thin;
+}
+
+.title{
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.description{
+  grid-row-start: 2;
+  grid-column-start: 1;
+  text-align:justify;
+  font-size: 1.3rem;
+}
+
+.tech1{
+  grid-row-start: 3;
+  grid-column-start: 1;
+  font-size: 1.3rem;
+  color: rgb(72, 185, 28);
+}
+
+.tech2{
+  grid-row-start: 4;
+  grid-column-start: 1;
+  font-size: 1.3rem;
+  color: rgb(72, 185, 28);
+}
+
+
+
+.infoB{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 5fr;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+.Project-Background{
+  grid-column: 1;
+  margin: 0px;
+}
+
+.background{
+  grid-column: 1;
+  font-size: 1rem;
+  text-align:justify;
+  grid-row: 2;
+  align-self: start;
+}
+
+.videoB{
+  display: flex;
+  justify-items: center;
+  grid-column-start: 2 ;
+  grid-column-end: 3;
+  justify-self: center;
+  grid-row-start: 3;
+  grid-row-end: 5;
+  margin: 0px;
+  padding: 0px;
+}
+
+.particles{
+  align-self: center;
+  grid-column: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+
+
+.portafolioNav{
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.visit{
+  justify-content: center;
+  display: flex;
+  align-self: end;
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+
+.clickButton{
+  transition: 1s;
+  font-family: Raleway, sans-serif;
+  background-color:white; 
+  border:'none'; 
+  border-top: solid thin;
+  border-bottom: solid thin; 
+  cursor: pointer; 
+  padding:5%;
+  width: 150px;
+  font-size: 0.6
+
+};
+
+

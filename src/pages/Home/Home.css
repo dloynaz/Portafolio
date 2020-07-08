@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.AboutMe:hover{
+  opacity: 0.5;
+  transform: scale(1.0);
+  transition: 0.4s ease-in-out;
+}
+
+.linkContact:hover{
+    width:40%;
+    height: 60px;
+    transition:0.5s
+}
+
+.linkContact{
+    width: 150px; 
+    height: 60px;
+    border: solid; 
+    margin: 0px;
+    grid-column-start: 3;
+    justify-self: center;
+    align-self: center;
+    border-width: thin;
+    display: flex; 
+    text-decoration: none;
+    color: black;
+    transition:0.5s
+}
+
+div{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.gridContainer{
+    row-gap: 100px;
+    column-gap: 30px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.8fr 6fr 11fr 200px;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-bottom: 5%
+}
+
+.gridItemA{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-self: end;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    max-width: 400px;
+    z-index: 1000;
+    background-color: white;
+}
+
+.gridItemB{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-self: start;
+    
+}
+
+.gridItemC{
+    justify-self: center;
+    max-width: 1200px;
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-rows: 1;
+    
+}
+
+.Perfil{
+    align-self: center;
+    position: static;
+    grid-column-start: 1;
+    width: 385px;
+    margin: 0px;
+    justify-self: center;
+    border-radius: 1rem;
+}
+
+p{  
+    align-self: center;
+    justify-self: center;
+    grid-column-start: 2;
+    font-size: 2rem;
+    max-width: 450px;;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+#anchorLink{ 
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.7s;
+    text-justify: center;
+    padding: 0px;
+    color:whitesmoke;
+    grid-row: 1;
+    grid-column: 1;
+    align-self: center;
+}
+
+.AboutMe{
+    transition: 0.4s ease-in-out;
+    grid-column-start: 2;
+    background-color: rgb(58, 112, 94);
+    border-radius: 0.9rem;
+    height: 30px;
+    width: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+
+
+}
+
+.Background{
+    height: 400px;
+    width: 1250px;
+    position: absolute;
+    left:50%;
+    margin-left: -625px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .Background{
+    height: 400px;
+    width: 1250px;
+    position: absolute;
+    left:50%;
+    margin-left: -625px;
+    transform: scale(0.8);
+  }
+
+}
+
+
+
+

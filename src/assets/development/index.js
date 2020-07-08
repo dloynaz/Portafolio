@@ -1,0 +1,1 @@
+export {default as Web1} from './Web1.png'
