@@ -20,7 +20,7 @@ export default [
         tech2: 'HTML, CSS, JS',
         video1: video1Dashboard,
         video2: video2Dashboard,
-        link: 'https://es.wikipedia.org/wiki/Disposici%C3%B3n_del_motor',
+        link: 'http://social-media-dashboard-wohooo.surge.sh/',
         visit: "Visit Website!"
     },
     {
@@ -45,8 +45,8 @@ export default [
         tech2: 'HTML, CSS, JS',
         video1: video1codeChallenges,
         video2: video2codeChallenges,
-        link: 'https://es.wikipedia.org/wiki/Disposici%C3%B3n_del_motor',
-        visit: "Visit Website!"
+        link: 'https://github.com/dloynaz/code-challenges',
+        visit: "Visit Code!"
 
     },
     {
@@ -58,7 +58,7 @@ export default [
         tech2: 'HTML, CSS, JS, JSX, API',
         video1: video1ravenous,
         video2: video2ravenous,
-        link: 'https://es.wikipedia.org/wiki/Disposici%C3%B3n_del_motor',
+        link: 'http://dlravenous.surge.sh/',
         visit: "Visit Website!"
 
     },
@@ -71,8 +71,8 @@ export default [
         tech2: 'SQL queries',
         video1: video1GoldMetrics,
         video2: video2GoldMetrics,
-        link: 'https://es.wikipedia.org/wiki/Disposici%C3%B3n_del_motor',
-        visit: "Visit Website!"
+        link: 'https://github.com/dloynaz/Gold-Medal-Metrics',
+        visit: "Visit Code!"
 
     },
     {
