@@ -32,7 +32,7 @@ export default [
         tech2: 'HTML, CSS, JS, API',
         video1: video1Jammming,
         video2: video2Jammming,
-        link: 'https://es.wikipedia.org/wiki/Disposici%C3%B3n_del_motor',
+        link: 'http://wohooojammmingdlocr.surge.sh/',
         visit: "Visit Website!"
 
     },

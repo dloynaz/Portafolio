@@ -20,7 +20,7 @@ function Footer() {
 
         ))}
       </ul>  
-      <a target="blank" className="icon" href="https://es.wikipedia.org/wiki/Kann_Denn_Liebe_S%C3%BCnde_Sein%3F" style={{ alignSelf:'center', width:'fit-content', margin:'20%', transition:'1s'}}><img src={github} style={{ height: '30px', borderRadius:'0.3rem'}}></img></a>
+      <a target="blank" className="icon" href="https://github.com/dloynaz" style={{ alignSelf:'center', width:'fit-content', margin:'20%', transition:'1s'}}><img src={github} style={{ height: '30px', borderRadius:'0.3rem'}}></img></a>
       <a target="blank" className="icon" href="https://es.wikipedia.org/wiki/Kann_Denn_Liebe_S%C3%BCnde_Sein%3F" style={{ alignSelf:'center', width:'fit-content', margin:'20%', transition:'1s'}}><img src={Linkedin} style={{ height: '30px', borderRadius:'0.3rem'}}></img></a>
     </div>
   )
