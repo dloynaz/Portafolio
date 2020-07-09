@@ -101,7 +101,7 @@ function Home() {
 
 
   return (
-    <div className='page'>
+    <div className='page' id="home">
       <ReactPlayer
         playsInline
         className='Background'
@@ -134,8 +134,8 @@ function Home() {
           )}<span><HomeHook /></span></p>
         </div>
         <div className="gridItemC">
-          <h1 style={{ gridColumnStart: '1', gridColumnEnd: '2', margin: '0px', width: '50%', justifySelf: 'center', alignSelf: 'center' }}>Interested in doing a project together?</h1>
-          <div style={{ width: '60%', height: '1px', backgroundColor: 'black', margin: '0px', gridColumnStart: '2', alignSelf: 'center', justifySelf: 'center' }}></div>
+          <h1 className="contactText" style={{ gridColumnStart: '1', gridColumnEnd: '2', margin: '0px', width: '50%', justifySelf: 'center', alignSelf: 'center' }}>Interested in doing a project together?</h1>
+          <div className="contactText" style={{ width: '60%', height: '1px', backgroundColor: 'black', margin: '0px', gridColumnStart: '2', alignSelf: 'center', justifySelf: 'center' }}></div>
           <Link to='/contact' className="linkContact"><p style={{ fontSize: '1rem', margin: 'auto' }}>Contant Me</p></Link>
 
         </div>

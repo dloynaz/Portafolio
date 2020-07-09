@@ -82,8 +82,12 @@ Nav {
 
 
 @media only screen and (max-width: 800px) {
-  .App{
-    max-width: 800px;
+  .page{
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 0;
+    min-width: 0%;
   }
 }
 

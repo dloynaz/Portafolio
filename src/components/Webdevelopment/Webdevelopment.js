@@ -44,7 +44,7 @@ function Webdevelopment() {
     }, [])
 
     return (
-        <div className="page" style={{height:'800px'}}>
+        <div className="page" style={{minHeight:'1000px', height:'100%'}}>
             <div className="devContainer">
 
 

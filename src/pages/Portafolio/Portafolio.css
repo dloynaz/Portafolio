@@ -1,2 +1,25 @@
+@media screen and (max-width: 40em) {
+    #Portafolio{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .portafolioVideo{
+        position:relative;
+        border:none;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 100%;
+    }
+
+}
 
 
+.portafolioVideo{
+    position:relative;
+    border:none;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
+#home{
+    min-width: 1000px;
+}
+
 .AboutMe:hover{
   opacity: 0.5;
   transform: scale(1.0);
@@ -152,6 +156,162 @@ p{
 
 }
 
+
+@media screen and (max-width: 40em) {
+  #home{
+        display: flex;
+        justify-content: center;
+        min-width: 0%;
+        flex-direction: column;
+        align-items: center;
+    }
+  .Background{
+    position: relative;
+    transform: scale(0.5);
+  }
+
+  .AboutMe:hover{
+    opacity: 0.5;
+    transform: scale(1.0);
+    transition: 0.4s ease-in-out;
+  }
+  
+  .linkContact:hover{
+      width:40%;
+      height: 60px;
+      transition:0.5s
+  }
+  
+  .linkContact{
+      width: 150px; 
+      height: 60px;
+      border: solid; 
+      margin: 0px;
+      grid-column-start: 3;
+      justify-self: center;
+      align-self: center;
+      border-width: thin;
+      display: flex; 
+      text-decoration: none;
+      color: black;
+      transition:0.5s
+  }
+  
+
+  
+  .gridContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .gridItemA{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 50%;
+      margin: auto;
+      margin-bottom: 10%;
+      grid-row-start: 2;
+      grid-column-start: 1;
+      max-width: 400px;
+      background-color: white;
+  }
+  
+  .gridItemB{
+      grid-row-start: 3;
+      grid-column-start: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      align-self: start;
+      justify-self: center;
+      margin: auto;
+
+      
+  }
+  
+  .gridItemC{
+      justify-self: center;
+      width: 100%;
+      grid-row-start: 4;
+      grid-column-start: 1;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 18%;
+
+      
+  }
+  
+  .Perfil{
+      align-self: center;
+      position: static;
+      grid-column-start: 1;
+      grid-row: 1;
+      width: 385px;
+      margin: 0px;
+      justify-self: center;
+      border-radius: 1rem;
+  }
+  
+  p{  
+      align-self: center;
+      justify-self: center;
+      grid-column-start: 1;
+      grid-row: 2;
+      font-size: 2rem;
+      font-family: 'Raleway', sans-serif;
+      text-align: justify;
+      margin-top: 20%;
+      margin-bottom: 20%;
+  }
+  
+  .title{
+      grid-column-start: 1;
+  }
+  
+  
+  
+  #anchorLink{ 
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      transition: 0.7s;
+      text-justify: center;
+      padding: 0px;
+      color:whitesmoke;
+      align-self: center;
+      margin:auto;
+
+
+  }
+  
+  .AboutMe{
+      transition: 0.4s ease-in-out;
+      grid-column-start: 2;
+      background-color: rgb(58, 112, 94);
+      border-radius: 0.9rem;
+      height: 30px;
+      width: 100px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      display: none;
+  
+  
+  
+  }
+
+  .message{
+      display: none;
+  }
+
+  .contactText{
+      display: none;
+  }
+
+}
 
 
 

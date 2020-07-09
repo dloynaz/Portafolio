@@ -19,15 +19,16 @@ function Contact() {
             transition: '3s',
             transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
             overflow: 'hidden',
-            opacity: '0',
-            zIndex:'1000'
+            opacity: '1',
+            zIndex:'10'
 
         })
 
     const [titleAstyle, setTitleAstyle] = useState(
         {
             opacity: '0',
-            transition: '2.7s'
+            transition: '2.7s',
+            zIndex:'-1000'
         }
     )
     const [lineStyle, setLineStyle] = useState({
@@ -56,7 +57,7 @@ function Contact() {
                 transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
                 overflow: 'hidden',
                 opacity: '1',
-                zIndex:'1000'
+                zIndex:'10'
             })
         }, 1000);
 
@@ -134,20 +135,20 @@ function Contact() {
 
 
     return (
-        <div className='page' style={{ height: '1000px', display: 'grid', gridTemplateColumns: ' 1fr 1fr', gridTemplateRows: '1fr 1fr 1fr', width: '100%' }}>
-            <div style={{ gridRowStart: '1', gridColumnStart: '2', alignSelf: 'end', justifySelf: 'left'}} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
+        <div className='page' id="contact" style={{ height: '1000px', display: 'grid', gridTemplateColumns: ' 1fr 1fr 1fr', gridTemplateRows: '1fr 1fr 1fr', columnGap:'50px', width: '100%' }}>
+            <div className="title"style={{ gridRowStart: '1', gridColumnStart: '2', alignSelf: 'end', justifySelf: 'left'}} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
                 <h1 style={titleAstyle}>{contact.map(item => item.message)}</h1>
             </div>
-            <div style={{ gridRowStart: '2', gridColumnStart: '2', alignSelf: 'center', justifySelf: 'left' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
+            <div className="title2" style={{ gridRowStart: '2', gridColumnStart: '2', alignSelf: 'center', justifySelf: 'left' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
                 <a style={{ textDecoration: 'none', color: '#2F4F4F' }} href="mailto:davidloynazdev@gmail.com"><h2 onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} style={titleAstyle}>{contact.map(item => item.phoneNumber)}</h2></a>
             </div>
-            <div style={{ gridRowStart: '3', gridColumnStart: '2', alignSelf: 'start', justifySelf: 'left' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
+            <div className="title3"style={{ gridRowStart: '3', gridColumnStart: '2', alignSelf: 'start', justifySelf: 'left' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
                 <h3 style={titleAstyle} >{contact.map(item => item.email)}</h3>
             </div>
-            <div style={{ gridRowStart: '1', gridRowEnd: '4', alignSelf: 'center', justifySelf: 'center' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
+            <div className="line"style={{ gridRowStart: '1', gridRowEnd: '4', alignSelf: 'center', justifySelf: 'center', gridColumnStart: '3' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
                 <div style={lineStyle}></div>
             </div>
-            <div style={{ gridRowStart: '1', gridRowEnd: '4', alignSelf: 'center', gridColumnStart: '1', justifySelf: 'center', height: 'auto', width: 'auto' }}>
+            <div className="video" style={{ gridRowStart: '1', gridRowEnd: '4', alignSelf: 'center', gridColumnStart: '1', justifySelf: 'center', height: 'auto', width: 'auto' }}>
                 <video
                     loop
                     autoPlay
@@ -157,6 +158,8 @@ function Contact() {
                     style={imgStyle}
                     onMouseEnter={MouseEnter} 
                     onMouseLeave={MouseEnter}
+                    width="100%" 
+                    height="100%" 
                 >
 
                     <source src={Texture} type='video/mp4' />

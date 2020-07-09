@@ -88,7 +88,7 @@ const onclick = () => {
 
 
 return (
-    <div style={{ marginLeft: '10%', marginRight: '10%', marginBottom: '5%', minWidth:'700px'}} className="page">
+    <div style={{ marginLeft: '10%', marginRight: '10%', marginBottom: '5%'}} className="page" id="portafolioHook">
         <div className="portafolioGridContainer">
             <div className='videoA'>
                 <ReactPlayer className="player"

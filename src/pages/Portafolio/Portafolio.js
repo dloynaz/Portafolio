@@ -31,7 +31,7 @@ function Portafolio(){
 
   
     return(
-        <div style={{height: '900px'}} className='page'>
+        <div style={{height: '900px'}} className='page' id="Portafolio">
         <div>
           <ReactPlayer
           playsInline
@@ -43,7 +43,8 @@ function Portafolio(){
           height='367px'
           width='1160px'
           loop autoPlay
-          style={{position:'relative', border:'none', left: '50%', transform: 'translateX(-50%)'}}
+          
+          className="portafolioVideo"
           />
           <p style={{margin: '0 auto', backgroundColor:'White', zIndex:'1000', position:'relative', bottom:'200px', padding:'20px', fontSize:'1.5rem'}}>
           {portafolioIntro.map(info => info.Intro)}
