@@ -4,12 +4,6 @@ div{
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
-@media screen and (max-width: 835px) {
-    #contact{
-      min-width: 600px;
-      transform: rotate(90deg);
-    }
-   
-}
+
 
 

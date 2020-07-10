@@ -43,7 +43,7 @@ function PortafolioNav({ id, name }) {
         borderLeft: 'none',
         borderRight: 'none',
         borderWidth: 'thin',
-        height: '120%',
+        height: '110px',
         textDecoration: 'none',
         width: '50%',
         justifySelf: 'flex-start',
@@ -105,20 +105,20 @@ function PortafolioNav({ id, name }) {
 
             {
                 displayLast ? (<Link to={linkLast} style={styleNav}>
-                    <div className="Last" style={{ display: 'flex', flexDirection: 'column', color: 'black', transition: '0.5s ease-in-out' }}>
+                    <div className="Last" style={{ display: 'flex', flexDirection: 'column', color: 'black', transition: '0.5s ease-in-out', alignSelf:'center' }}>
                         <h3 style={style[0]}>{NameLast}</h3>
                         <h4 style={{ margin: '0px' }}>Last Project</h4>
                     </div>
                 </Link>) : null
             }
             {
-                displayNext ? (<Link to={linkNext} style={{ border: 'solid', borderColor: 'black', borderRight: 'none', borderWidth: 'thin', height: '120%', textDecoration: 'none', width: '50%' }}>
-                    <div className="Next" style={{ display: 'flex', flexDirection: 'column', color: 'black', transition: '0.5s ease-in-out' }}>
+                displayNext ? (<Link to={linkNext} style={{ border: 'solid', borderColor: 'black', borderRight: 'none', borderWidth: 'thin', height: '110px', textDecoration: 'none', width: '50%' }}>
+                    <div className="Next" style={{ display: 'flex', flexDirection: 'column', color: 'black', transition: '0.5s ease-in-out', alignSelf:'center' }}>
                         <h3 style={style[1]}>{NameNext}</h3>
                         <h4 style={{ margin: '0px' }}>Next Project</h4>
                     </div>
                 </Link>
-                ) : (<div to={linkLast} style={{border: 'solid', borderColor: 'black', borderRight: 'none', borderBottom:'none', borderTop:'none', borderWidth: 'thin', height: '120%', textDecoration: 'none', width: '50%' }}>
+                ) : (<div to={linkLast} style={{border: 'solid', borderColor: 'black', borderRight: 'none', borderBottom:'none', borderTop:'none', borderWidth: 'thin', height: '112.5px', textDecoration: 'none', width: '50%' }}>
                     <div className="Last" style={{ display: 'flex', flexDirection: 'column', color: 'black', transition: '0.5s ease-in-out' }}>
                         <h3 style={style[0]}></h3>
                         <h4 style={{ margin: '0px' }}></h4>

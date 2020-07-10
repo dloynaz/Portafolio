@@ -2,7 +2,6 @@ import React from 'react'
 import { navigation as links } from '../../constants'
 import { Link } from 'react-router-dom'
 import './Footer.css'
-import texture from '../../assets/FlipCupTexture02.jpg'
 
 import { github, Linkedin } from '../../assets/Icon'
 

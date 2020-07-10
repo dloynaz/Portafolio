@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Colors from '../../assets/FlipCupTexture02.jpg'
 import { PortafolioIntroNav } from '../../components'
 import { portafolioIntro } from '../../constants'
 import './Portafolio.css'
@@ -20,12 +19,12 @@ function Portafolio(){
     window.scrollTo(0, 0)
     
     const timer = setTimeout(() => {
-      setWebStyle({color:'SkyBlue', transition:'2s', fontSize:'100%'})
-    }, 7000);
+      setWebStyle({color:'LightCoral', transition:'2s', fontSize:'100%'})
+    }, 4500);
 
     const timer2 = setTimeout(() => {
       setWebStyle({color:'black', transition:'2s', fontSize:'100%'})
-    }, 9000);   
+    }, 6000);   
     return () => clearTimeout(timer);
   }, [])
 

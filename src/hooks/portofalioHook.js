@@ -6,7 +6,6 @@ import Particles from 'react-particles-js';
 
 import { portafolio } from '../constants';
 
-import { ObraSanJorge, ObraSanJorgeB, ObraSanJorgeC } from '../assets/PortafolioAsset';
 import { video1Dashboard, video2Dashboard } from '../assets/PortafolioAsset/Video/index';
 
 import './portafolioHook.css';

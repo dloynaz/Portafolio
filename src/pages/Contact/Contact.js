@@ -2,7 +2,6 @@ import React, { useState, useEffect, Component } from 'react';
 import './Contact.css'
 import { contact } from '../../constants'
 
-import texture from '../../assets/CupTexture.jpg'
 
 import soundfile from "../../assets/MIRLOS.mp3"
 
@@ -135,7 +134,7 @@ function Contact() {
 
 
     return (
-        <div className='page' id="contact" style={{ height: '1000px', display: 'grid', gridTemplateColumns: ' 1fr 1fr 1fr', gridTemplateRows: '1fr 1fr 1fr', columnGap:'50px', width: '100%' }}>
+        <div className='page' id="contact" style={{ height: '1000px', display: 'grid', gridTemplateColumns: ' 1fr 1fr 1fr', gridTemplateRows: '1fr 1fr 1fr', columnGap:'50px', width: '100%', minWidth: '900px' }}>
             <div className="title"style={{ gridRowStart: '1', gridColumnStart: '2', alignSelf: 'end', justifySelf: 'left'}} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
                 <h1 style={titleAstyle}>{contact.map(item => item.message)}</h1>
             </div>
