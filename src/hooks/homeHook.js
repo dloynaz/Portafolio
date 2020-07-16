@@ -33,7 +33,7 @@ import { home } from '../constants'
             //setWord(() => seconds == 3 || seconds == 10 ? 'three' : 'hello');
             wordFind()
           }, 1000);
-          if (seconds == 17) { 
+          if (seconds == 20) { 
                setSeconds(0) }
         } else if (!isActive && seconds !== 0) {
           clearInterval(interval);

@@ -5,7 +5,8 @@ import {
     video1codeChallenges, video2codeChallenges,
     video1ravenous, video2ravenous,
     video1GoldMetrics, video2GoldMetrics,
-    video1portafolio,video2portafolio
+    video1portafolio,video2portafolio,
+    video1Number,video2Number
 
 } from '../assets/PortafolioAsset/Video/index'
 
@@ -87,6 +88,18 @@ export default [
         link: 'https://github.com/dloynaz/Portafolio',
         visit: "View Code!"
     },
+    {
+        id: 7,
+        name: 'Number Guesser!',
+        description: "The number guesser allows the user to compete with the computer for who guesses a secret number. This number changes per round. In case that no one matches the number, the one who has selected the closest value will be chosen. ",
+        background: "This project was one of my first javascript exercises. It allowed me to work with the mathematical object. In this case take advantage of Math.random and Math.floor. In addition to distilling my knowledge when working with arrays and their different methods. In this case take advantage of Math.random and Math.floor. This project, like the code challenges, was done with pure javascript.",
+        tech1: 'Interaction Design/Front End Development',
+        tech2: 'HTML, CSS, JS',
+        video1: video1Number,
+        video2:video2Number,
+        link: 'http://three-soup.surge.sh/',
+        visit: "Visit Website!"
+    }
 
 ]
 

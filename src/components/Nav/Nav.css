@@ -31,3 +31,9 @@
     padding-right: 5%;
 }
 
+
+@media screen and (max-width: 40em) {
+    .NavList{
+        transform: scale(0.7);
+    }
+  }

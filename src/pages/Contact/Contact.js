@@ -10,113 +10,42 @@ import { Texture } from '../../assets/PortafolioAsset/Video/index'
 
 function Contact() {
 
-    const [imgStyle, setImgStyle] = useState(
-        {
-            position: 'relative',
-            left: '150%',
-            height: '900px',
-            transition: '3s',
-            transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
-            overflow: 'hidden',
-            opacity: '1',
-            zIndex:'10'
+    const [lineStyle, setLineStyle] = useState('0px')
+    document.documentElement.style.setProperty("--lineHeight", `${lineStyle}`)
 
-        })
+    const [imgStyle, setImgStyle] = useState("150%")
+    document.documentElement.style.setProperty("--imgLeft", `${imgStyle}`)
 
-    const [titleAstyle, setTitleAstyle] = useState(
-        {
-            opacity: '0',
-            transition: '2.7s',
-            zIndex:'-1000'
-        }
-    )
-    const [lineStyle, setLineStyle] = useState({
-        height: '0px',
-        backgroundColor: 'black',
-        width: '2px',
-        position: 'relative',
-        right: '100px',
-        transition: '3s',
-        transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
+    const [titleAstyle, setTitleAstyle] = useState('0')
+    document.documentElement.style.setProperty("--titleOpacity", `${titleAstyle}`)
 
-    })
+
 
 
 
     useEffect(() => {
 
         window.scrollTo(0, 0)
-   
-        const timer0 = setTimeout(() => {
-            setImgStyle({
-                position: 'relative',
-                left: '150%',
-                height: '900px',
-                transition: '3s',
-                transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
-                overflow: 'hidden',
-                opacity: '1',
-                zIndex:'10'
-            })
-        }, 1000);
+
 
         const timer = setTimeout(() => {
-            setImgStyle({
-                position: 'relative',
-                left: '0%',
-                height: '900px',
-                transition: '3s',
-                transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
-                overflow: 'hidden',
-                zIndex:'1000'
-
-
-            })
+            setImgStyle('0%')
         }, 2000);
         const timer2 = setTimeout(() => {
-            setTitleAstyle({
-                opacity: '1',
-                transition: '2.5s',
-                zIndex:'-10'
-            })
-            setLineStyle({
-                height: '500px',
-                backgroundColor: 'black',
-                width: '2px',
-                position: 'relative',
-                right: '100px',
-                transition: '3s',
-                transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)'
-
-            })
-        }, 2350);
+            setTitleAstyle("1")
+            setLineStyle('500px')
+        }, 2500);
         return () => clearTimeout(timer);
     }, []);
 
     const onMouseEnter = () => {
-        setLineStyle({
-            height: '300px',
-            backgroundColor: 'black',
-            width: '2px',
-            position: 'relative',
-            right: '100px',
-            transition: '3s',
-            transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
-
-        })
+        setLineStyle('300px')
+        document.documentElement.style.setProperty("--lineHeight", `${lineStyle}`)
     }
 
     const onMouseLeave = () => {
-        setLineStyle({
-            height: '500px',
-            backgroundColor: 'black',
-            width: '2px',
-            position: 'relative',
-            right: '100px',
-            transition: '3s',
-            transitionTimingFunction: 'cubic-bezier(0.25, 0.1, 0.25, 1)',
-
-        })
+        setLineStyle('500px')
+        document.documentElement.style.setProperty("--lineHeight", `${lineStyle}`)
     }
 
     let [speed, setSpeed] = useState(8)
@@ -134,27 +63,26 @@ function Contact() {
 
 
     return (
-        <div className='page' id="contact" style={{ height: '1000px', display: 'grid', gridTemplateColumns: ' 1fr 1fr 1fr', gridTemplateRows: '1fr 1fr 1fr', columnGap:'50px', width: '100%', minWidth: '900px' }}>
-            <div className="title"style={{ gridRowStart: '1', gridColumnStart: '2', alignSelf: 'end', justifySelf: 'left'}} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
-                <h1 style={titleAstyle}>{contact.map(item => item.message)}</h1>
+        <div className='page' id="contact">
+            <div className="titleWrapper1"onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
+                <h1 class="titleAstyle">{contact.map(item => item.message)}</h1>
             </div>
-            <div className="title2" style={{ gridRowStart: '2', gridColumnStart: '2', alignSelf: 'center', justifySelf: 'left' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
-                <a style={{ textDecoration: 'none', color: '#2F4F4F' }} href="mailto:davidloynazdev@gmail.com"><h2 onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} style={titleAstyle}>{contact.map(item => item.phoneNumber)}</h2></a>
+            <div className="titleWrapper2" onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
+                <a style={{ textDecoration: 'none', color: '#2F4F4F' }} href="mailto:davidloynazdev@gmail.com"><h2 onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} class="titleAstyle">{contact.map(item => item.phoneNumber)}</h2></a>
             </div>
-            <div className="title3"style={{ gridRowStart: '3', gridColumnStart: '2', alignSelf: 'start', justifySelf: 'left' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
-                <h3 style={titleAstyle} >{contact.map(item => item.email)}</h3>
+            <div className="titleWrapper3" onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
+                <h3 class="titleAstyle" >{contact.map(item => item.email)}</h3>
             </div>
-            <div className="line"style={{ gridRowStart: '1', gridRowEnd: '4', alignSelf: 'center', justifySelf: 'center', gridColumnStart: '3' }} onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
-                <div style={lineStyle}></div>
+            <div className="line" onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
+                <div class="lineStyle"></div>
             </div>
-            <div className="video" style={{ gridRowStart: '1', gridRowEnd: '4', alignSelf: 'center', gridColumnStart: '1', justifySelf: 'center', height: 'auto', width: 'auto' }}>
+            <div className="videoWrapper" >
                 <video
                     loop
                     autoPlay
                     className="image"
                     muted
                     id="myVideo"
-                    style={imgStyle}
                     onMouseEnter={MouseEnter} 
                     onMouseLeave={MouseEnter}
                     width="100%" 

@@ -4,6 +4,159 @@ div{
     font-family: 'Source Sans Pro', sans-serif;;
 }
 
+--root{
+  --imgLeft:150%;
+  --titleOpacity:1;
+  --lineHeight:500px;
+}
+
+.image{
+  position: relative;
+  left: var(--imgLeft);
+  height: 900px;
+  transition: 3s;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  overflow: hidden;
+  opacity: 1;
+  z-index:10;
+}
+
+
+.titleAstyle{
+opacity: var(--titleOpacity);
+transition: 2.7s;
+z-index:-1000;
+}
+
+
+.lineStyle{
+height: var(--lineHeight);
+background-color: black;
+width: 2px;
+position: relative;
+right: 100px;
+transition: 3s;
+transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+
+#contact{
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap:50px;
+    width: 100%;
+    min-width: 900px;
+}
+
+
+.titleWrapper1{
+   grid-row-start: 1;
+   grid-column-start: 2; 
+   align-self: end; 
+   justify-self: left;
+}
+
+.titleWrapper2{
+    grid-row-start:2; 
+    grid-column-start: 2; 
+    align-self: center;
+    justify-self: left;
+}
 
 
 
+.titleWrapper3{
+grid-row-start: 3;
+grid-column-start: 2; 
+align-self: start;
+justify-self: left; 
+}
+
+.line{
+grid-row-start: 1;
+grid-row-end: 4; 
+align-self: center;
+justify-self: center;
+grid-column-start: 3;
+}
+
+.videoWrapper{
+grid-row-start: 1; 
+grid-row-end: 4; 
+align-self: center;
+grid-column-start: 1; 
+justify-self: center; 
+height: auto;
+width: auto;
+}
+
+@media screen and (max-width: 40em) {
+    --root{
+        --imgLeft:150%;
+        --titleOpacity:1;
+        --lineHeight:500px;
+      }
+
+      #contact{
+        display: flex;
+        justify-content: center;
+        min-width: 0%;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+      .image{
+        display: relative;
+        top:-326%;
+        margin: auto;
+        height: 300px;
+        transition: 3s;
+        transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+        overflow: hidden;
+        opacity: 1;
+        z-index:-10;
+      }
+      
+      
+      .titleAstyle{
+      opacity: var(--titleOpacity);
+      transition: 2.7s;
+      z-index:-1000;
+      }
+      
+      
+      .lineStyle{
+      height: var(--lineHeight);
+      background-color: black;
+      width: 2px;
+      transition: 3s;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+      }
+      
+      
+
+      
+      .titleWrapper1{
+        margin: auto;
+      }
+      
+      .titleWrapper2{
+        margin: auto;
+      }
+      
+      
+      
+      .titleWrapper3{
+        margin: auto;
+      }
+      
+      .line{
+        align-self: center;
+      }
+      
+      .videoWrapper{
+        align-self: center;
+      }
+}

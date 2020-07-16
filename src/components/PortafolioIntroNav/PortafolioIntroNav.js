@@ -19,7 +19,7 @@ function PortafolioIntroNav() {
     return (
         <div>
             <Link to='/portafolio/1' onMouseOver={onHover} onMouseLeave={onMouseLeave}>
-                <h3 style={{ position: 'relative', bottom: '150px', float: 'right', marginRight: '20%', textDecoration: 'none', color: 'black', }}><span style={style}>➤</span> Let's review them!
+                <h3 style={{ position: 'relative', bottom: '150px', float: 'right', marginRight: '20%', textDecoration: 'none', color: 'black'}}><span style={style}>➤</span> Let's review them!
             </h3>
             </Link>
         </div>

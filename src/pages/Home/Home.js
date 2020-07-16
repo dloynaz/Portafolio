@@ -68,7 +68,7 @@ function Home() {
 
         }
       )
-    }, 11000);
+    }, 5000);
     return () => clearTimeout(timer);
   }, []);
 

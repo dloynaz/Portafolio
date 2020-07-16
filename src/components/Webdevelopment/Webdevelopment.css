@@ -38,10 +38,10 @@
 
 @media screen and (max-width: 835px) {
 	.development{
+		margin-top: 50%;
 		width:70%;
 		transition: 2s ease-in-out;
 		transition-timing-function: cubic-bezier(1, 0, 0, 1);
-		margin:6%;
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
 		animation: float 6s ease-in-out infinite;

@@ -67,6 +67,15 @@ export default [
         },{
             skill:'Adobe Suite',
             id:16
+        },{
+            skill:'Functional Programming',
+            id:17
+        },{
+            skill:'Object-oriented Programming',
+            id:18
+        },{
+            skill:'React Styled Components',
+            id:19
         }
       ]     
     }

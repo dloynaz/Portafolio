@@ -328,20 +328,21 @@ html {
 }
 
 .tech1{
+  margin-top: 25%;
   grid-row-start: 3;
   grid-column-start: 1;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   color: rgb(72, 185, 28);
-  margin-bottom: -10% ;
+  margin-bottom: 10% ;
 
 }
 
 .tech2{
   grid-row-start: 4;
   grid-column-start: 1;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   color: rgb(72, 185, 28);
-  margin-bottom: 5% ;
+  margin-bottom: 10% ;
 
 }
 
@@ -416,7 +417,7 @@ html {
   width: 180px;
   font-size: 0.6
 
-}
+  }
 }
 
 
