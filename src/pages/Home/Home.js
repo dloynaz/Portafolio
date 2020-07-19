@@ -59,7 +59,7 @@ function Home() {
           margin: '0px',
           gridRowStart: '1',
           position: 'relative',
-          top: '1670%',
+          top: '1700%',
           zIndex: '-1',
           padding: '0px',
           opacity: '1',
