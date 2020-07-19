@@ -92,7 +92,7 @@ export default [
         id: 7,
         name: 'Number Guesser!',
         description: "The number guesser allows the user to compete with the computer for who guesses a secret number. This number changes per round. In case that no one matches the number, the one who has selected the closest value will be chosen. ",
-        background: "This project was one of my first javascript exercises. It allowed me to work with the mathematical object. In this case take advantage of Math.random and Math.floor. In addition to distilling my knowledge when working with arrays and their different methods. In this case take advantage of Math.random and Math.floor. This project, like the code challenges, was done with pure javascript.",
+        background: "This project was one of my first javascript exercises. It allowed me to work with the mathematical object. In this case take advantage of Math.random (The random() function is used to generate a random number between 0 (inclusive) and 1 (exclusive). This generated number is then multiplied with 10 and added 1 to generate numbers from 1 – 10). In addition to distilling my knowledge when working with arrays and their different methods. This project, like the code challenges, was done with pure javascript.",
         tech1: 'Interaction Design/Front End Development',
         tech2: 'HTML, CSS, JS',
         video1: video1Number,

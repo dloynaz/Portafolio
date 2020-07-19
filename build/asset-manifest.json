@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa2fa513.chunk.css",
-    "main.js": "/static/js/main.e35dd502.chunk.js",
-    "main.js.map": "/static/js/main.e35dd502.chunk.js.map",
+    "main.css": "/static/css/main.f62585ff.chunk.css",
+    "main.js": "/static/js/main.b9ca6524.chunk.js",
+    "main.js.map": "/static/js/main.b9ca6524.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6109b15a.js",
     "runtime-main.js.map": "/static/js/runtime-main.6109b15a.js.map",
-    "static/js/2.d8acdcae.chunk.js": "/static/js/2.d8acdcae.chunk.js",
-    "static/js/2.d8acdcae.chunk.js.map": "/static/js/2.d8acdcae.chunk.js.map",
+    "static/js/2.59180c4d.chunk.js": "/static/js/2.59180c4d.chunk.js",
+    "static/js/2.59180c4d.chunk.js.map": "/static/js/2.59180c4d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.241b2c4feb4d9ac8d4305d9cae5056f7.js": "/precache-manifest.241b2c4feb4d9ac8d4305d9cae5056f7.js",
+    "precache-manifest.0b03e1f3334baa526c66b35d9450060b.js": "/precache-manifest.0b03e1f3334baa526c66b35d9450060b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fa2fa513.chunk.css.map": "/static/css/main.fa2fa513.chunk.css.map",
-    "static/js/2.d8acdcae.chunk.js.LICENSE.txt": "/static/js/2.d8acdcae.chunk.js.LICENSE.txt",
+    "static/css/main.f62585ff.chunk.css.map": "/static/css/main.f62585ff.chunk.css.map",
+    "static/js/2.59180c4d.chunk.js.LICENSE.txt": "/static/js/2.59180c4d.chunk.js.LICENSE.txt",
     "static/media/CupTexture.webm": "/static/media/CupTexture.fee734fa.webm",
     "static/media/Favorita 10 10.27.57.jpg": "/static/media/Favorita 10 10.27.57.c3b085f7.jpg",
     "static/media/Favorita 11 10.27.57.jpg": "/static/media/Favorita 11 10.27.57.5cdce6c0.jpg",
@@ -28,7 +28,9 @@
     "static/media/Linkedin.jpg": "/static/media/Linkedin.6f9a03bd.jpg",
     "static/media/MIRLOS.mp3": "/static/media/MIRLOS.d000bacc.mp3",
     "static/media/VideoA-GoldMetrics.webm": "/static/media/VideoA-GoldMetrics.29714cde.webm",
+    "static/media/VideoA-Number.webm": "/static/media/VideoA-Number.fa1c1a68.webm",
     "static/media/VideoB-GoldMetrics.webm": "/static/media/VideoB-GoldMetrics.7763b0be.webm",
+    "static/media/VideoB-Number.webm": "/static/media/VideoB-Number.e90eabd6.webm",
     "static/media/VideoB-codeChallenges.webm": "/static/media/VideoB-codeChallenges.70743674.webm",
     "static/media/VideoB-ravenous.webm": "/static/media/VideoB-ravenous.319fd781.webm",
     "static/media/Web1.png": "/static/media/Web1.6431b5f3.png",
@@ -45,8 +47,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6109b15a.js",
-    "static/js/2.d8acdcae.chunk.js",
-    "static/css/main.fa2fa513.chunk.css",
-    "static/js/main.e35dd502.chunk.js"
+    "static/js/2.59180c4d.chunk.js",
+    "static/css/main.f62585ff.chunk.css",
+    "static/js/main.b9ca6524.chunk.js"
   ]
 }

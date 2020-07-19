@@ -14,6 +14,6 @@ export {default as Watercolor} from './watercolor.webm'
 export {default as Texture} from './CupTexture.webm'
 export {default as Texture2} from './FlipCupTexture.webm'
 export {default as background} from './FlipCupTexture06.webm'
-export {default as video1Number} from './VideoA-Number.mp4'
-export {default as video2Number} from './VideoB-Number.mp4'
+export {default as video1Number} from './VideoA-Number.webm'
+export {default as video2Number} from './VideoB-Number.webm'
 

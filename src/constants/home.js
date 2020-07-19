@@ -1,7 +1,7 @@
 export default [
     {
         aboutMe: 'About Me',
-        description: "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JS code,  I mostly use React, but I can adapt to whatever tools are required. I'm based in SJO,  Costa Rica, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me making experimental short-films or painting. Je parle Français, Español and English. I also have experience with:",
+        description: "I'm a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JS code,  I mostly use React, but I can adapt to whatever tools are required. I'm based in SJO,  Costa Rica, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me making experimental short-films, painting or giving yoga classes. Je parle Français, Español and English. I also have experience with:",
         word: [
         {
             skill:'Lodash Library',
