@@ -6,7 +6,7 @@ import {
     video1ravenous, video2ravenous,
     video1GoldMetrics, video2GoldMetrics,
     video1portafolio,video2portafolio,
-    video1Number,video2Number
+    video1Number,video2Number, video1PPT, video2PPT
 
 } from '../assets/PortafolioAsset/Video/index'
 
@@ -65,7 +65,7 @@ export default [
 
     },
     {
-        id: 6,
+        id: 7,
         name: 'Gold Medal Metrics',
         description: 'I create the SQL queries to power an Olympics analytics web app. It is part of the final modules of the career path in Web Development offered by codeacademy. The website allows the user to search for data about the countries in relation to the gold medals. The user can sort the information at his convenience.',
         background: "I took care of the commands that give functionality to the application working with a database incorporated in db browser. The communication with it was written using SQL Queries. The project allowed me to hone my skills when working with databases. In addition to being able to interact with it, always looking for a clean and easy to read code. Including the ability to unify SQL with javascript using Express.",
@@ -90,7 +90,7 @@ export default [
         visit: "View Code!"
     },
     {
-        id: 7,
+        id: 8,
         name: 'Number Guesser!',
         description: "The number guesser allows the user to compete with the computer for who guesses a secret number. This number changes per round. In case that no one matches the number, the one who has selected the closest value will be chosen. ",
         background: "This project was one of my first javascript exercises. It allowed me to work with the mathematical object. In this case take advantage of Math.random (The random() function is used to generate a random number between 0 (inclusive) and 1 (exclusive). This generated number is then multiplied with 10 and added 1 to generate numbers from 1 – 10). In addition to distilling my knowledge when working with arrays and their different methods. This project, like the code challenges, was done with pure javascript.",
@@ -99,6 +99,18 @@ export default [
         video1: video1Number,
         video2:video2Number,
         link: 'http://three-soup.surge.sh/',
+        visit: "Visit Website!"
+    },
+    {
+        id: 6,
+        name: 'Rock, paper or scissor!',
+        description: "This is a simple web application that allows the user to play the classic rock-paper-scissors game against the computer. The page has a colorful design. Whenever you want, you can access the instructions by clicking on the button in the lower left corner. When viewing the instructions window, the background loses opacity, adding a nice effect to the layout.",
+        background: "This web application allowed me to familiarize myself with the React Styled Components and understand the power of this library. Thanks to it I can integrate in javascript not only the html but also the css. This wonderful way of working allows me more flexibility. In this project I was able to work on basic animations, passing props to my styled components, and generate a layout that is attractive to the user. In addition to practicing the render cycles of React.",
+        tech1: 'Interaction Design/Front End Development',
+        tech2: 'HTML, CSS, JSXs',
+        video1: video1PPT,
+        video2:video2PPT,
+        link: 'http://rock-paper-scissor-davidloynaz.surge.sh/',
         visit: "Visit Website!"
     }
 
