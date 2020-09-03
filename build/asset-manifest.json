@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f62585ff.chunk.css",
-    "main.js": "/static/js/main.b9ca6524.chunk.js",
-    "main.js.map": "/static/js/main.b9ca6524.chunk.js.map",
+    "main.js": "/static/js/main.ab7a7f16.chunk.js",
+    "main.js.map": "/static/js/main.ab7a7f16.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6109b15a.js",
     "runtime-main.js.map": "/static/js/runtime-main.6109b15a.js.map",
-    "static/js/2.59180c4d.chunk.js": "/static/js/2.59180c4d.chunk.js",
-    "static/js/2.59180c4d.chunk.js.map": "/static/js/2.59180c4d.chunk.js.map",
+    "static/js/2.28bfbbd4.chunk.js": "/static/js/2.28bfbbd4.chunk.js",
+    "static/js/2.28bfbbd4.chunk.js.map": "/static/js/2.28bfbbd4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b03e1f3334baa526c66b35d9450060b.js": "/precache-manifest.0b03e1f3334baa526c66b35d9450060b.js",
+    "precache-manifest.e29cee1a9ee8d5f27ef24c151593dabb.js": "/precache-manifest.e29cee1a9ee8d5f27ef24c151593dabb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f62585ff.chunk.css.map": "/static/css/main.f62585ff.chunk.css.map",
-    "static/js/2.59180c4d.chunk.js.LICENSE.txt": "/static/js/2.59180c4d.chunk.js.LICENSE.txt",
+    "static/js/2.28bfbbd4.chunk.js.LICENSE.txt": "/static/js/2.28bfbbd4.chunk.js.LICENSE.txt",
     "static/media/CupTexture.webm": "/static/media/CupTexture.fee734fa.webm",
     "static/media/Favorita 10 10.27.57.jpg": "/static/media/Favorita 10 10.27.57.c3b085f7.jpg",
     "static/media/Favorita 11 10.27.57.jpg": "/static/media/Favorita 11 10.27.57.5cdce6c0.jpg",
@@ -37,18 +37,20 @@
     "static/media/github.jpg": "/static/media/github.2bd76b88.jpg",
     "static/media/videoA-Dashboard.webm": "/static/media/videoA-Dashboard.a812efc5.webm",
     "static/media/videoA-Jammming.webm": "/static/media/videoA-Jammming.318dc1a0.webm",
+    "static/media/videoA-PPT.webm": "/static/media/videoA-PPT.f17c26c8.webm",
     "static/media/videoA-codeChallenges.webm": "/static/media/videoA-codeChallenges.9ea65816.webm",
     "static/media/videoA-portafolio.webm": "/static/media/videoA-portafolio.644b9c4a.webm",
     "static/media/videoA-ravenous.webm": "/static/media/videoA-ravenous.2a03516d.webm",
-    "static/media/videoB-Dashboard.webm": "/static/media/videoB-Dashboard.d518c40e.webm",
+    "static/media/videoB-Dashboard.webm": "/static/media/videoB-Dashboard.f97c44ee.webm",
     "static/media/videoB-Jammming.webm": "/static/media/videoB-Jammming.43d4a909.webm",
+    "static/media/videoB-PPT.webm": "/static/media/videoB-PPT.06ce4500.webm",
     "static/media/videoB-portafolio.webm": "/static/media/videoB-portafolio.89f84b79.webm",
     "static/media/watercolor.webm": "/static/media/watercolor.54fbd1e8.webm"
   },
   "entrypoints": [
     "static/js/runtime-main.6109b15a.js",
-    "static/js/2.59180c4d.chunk.js",
+    "static/js/2.28bfbbd4.chunk.js",
     "static/css/main.f62585ff.chunk.css",
-    "static/js/main.b9ca6524.chunk.js"
+    "static/js/main.ab7a7f16.chunk.js"
   ]
 }
