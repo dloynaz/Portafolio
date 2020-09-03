@@ -128,10 +128,17 @@ function Home() {
           <img src={Perfil11} className="Perfil" onClick={photoHover} style={{display:'none'}} />
 
           <p className="message" style={messageStyle}>{message}</p>
-          <p id="about-me" style={{ fontSize: '1.4rem', borderBottom: 'solid', borderTop: 'solid', paddingTop: '5%', paddingBottom: '5%', borderWidth: 'thin' }}>{homeInfo.map(item => {
-            return item.description
-          }
-          )}<span><HomeHook /></span></p>
+          <p id="about-me" style={{ fontSize: '1.4rem', borderBottom: 'solid', borderTop: 'solid', paddingTop: '5%', paddingBottom: '5%', borderWidth: 'thin' }}>
+          I'm a junior front-end developer looking for a new role in an exciting company. 
+          I have a degree in <b>Web Development</b>, <b>Front End Libraries</b> and 
+          <b> JavaScript Algorithms and Data Structures</b>. I constantly try to keep 
+          updating my practices to meet the needs of the workplace. I focus on writing accessible HTML, 
+          using modern CSS practices and writing clean JavaScript. When writing JS code, 
+          I mostly use React, but I can adapt to whatever tools are required. I'm based in SJO, 
+          Costa Rica, but I'm happy working remotely and have experience with GitHub functionality. 
+          When I'm not coding, you'll find me making experimental short-films, painting or 
+          giving yoga classes. Je parle Français, Español and English. I also have experience 
+          with:<span><HomeHook /></span></p>
         </div>
         <div className="gridItemC">
           <h1 className="contactText" style={{ gridColumnStart: '1', gridColumnEnd: '2', margin: '0px', width: '50%', justifySelf: 'center', alignSelf: 'center' }}>Interested in doing a project together?</h1>

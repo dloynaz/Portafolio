@@ -3,6 +3,8 @@ import React, { useState, useEffect, Component } from 'react';
 import { Watercolor } from '../../assets/PortafolioAsset/Video/index'
 
 import { Web1 } from '../../assets/development'
+import { Web2 } from '../../assets/development'
+import { Web3 } from '../../assets/development'
 
 import './Webdevelopment.css'
 
@@ -36,7 +38,8 @@ function Webdevelopment() {
                 transform: 'translate(-50%, -50%)',
                 zIndex: '-1',
                 opacity: '1',
-                transition: '1s'
+                transition: '1s',
+                filter: "blur(0.5rem)"
             })
 
         }, 1000);
@@ -46,20 +49,18 @@ function Webdevelopment() {
     return (
         <div className="page" style={{minHeight:'1000px', height:'100%'}}>
             <div className="devContainer">
-
-
                 <img src={Web1} className="development" id='dev1'></img>
-
-
+                <img src={Web2} className="development" id='dev1'></img>
+                <img src={Web3} className="development" id='dev1'></img>
                 <video 
                 autoPlay
                 loop 
                 muted
                 style={opacity} 
-                id="myVideo"> 
-
+                id="myVideo"
+                >
+                
                   <source src={Watercolor} type='video/mp4' />
-
                 </video>
             </div>
         </div>

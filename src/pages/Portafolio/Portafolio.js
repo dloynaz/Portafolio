@@ -30,7 +30,7 @@ function Portafolio(){
 
   
     return(
-        <div style={{height: '900px'}} className='page' id="Portafolio">
+        <div style={{ height: "100vh"}} className='page' id="Portafolio">
         <div>
           <ReactPlayer
           playsInline
@@ -47,8 +47,11 @@ function Portafolio(){
           />
           <p style={{margin: '0 auto', backgroundColor:'White', zIndex:'1000', position:'relative', bottom:'200px', padding:'20px', fontSize:'1.5rem'}}>
           {portafolioIntro.map(info => info.Intro)}
-          <Link to="/Webdevelopment"style={webStyle}>{portafolioIntro.map(info => info.webDevelpment)}</Link>
-          {portafolioIntro.map(info => info.Intro2)}   
+          <Link to="/Certifications" style={webStyle}>{portafolioIntro.map(info => info.webDevelpment)}</Link>
+          {portafolioIntro.map(info => info.Intro2)}  
+          <Link to="/Certifications" style={webStyle}>{portafolioIntro.map(info => info.FCCfirst)}</Link> 
+          {portafolioIntro.map(info => info.and)}  
+          <Link to="/Certifications" style={webStyle}>{portafolioIntro.map(info => info.FCCsecond)}</Link> 
           </p>
 
 
