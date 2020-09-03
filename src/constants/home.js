@@ -1,14 +1,14 @@
 export default [
     {
         aboutMe: 'About Me',
-        description: "I'm a junior front-end developer looking for a new role in an exciting company. I have a degree in Web Development and I constantly try to keep updating my practices to meet the needs of the workplace. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JS code,  I mostly use React, but I can adapt to whatever tools are required. I'm based in SJO,  Costa Rica, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me making experimental short-films, painting or giving yoga classes. Je parle Français, Español and English. I also have experience with:",
+        description:`I'm a junior front-end developer looking for a new role in an exciting company. I have a degree in "Web Development", "Front End Libraries" and "JavaScript Algorithms and Data Structures". I constantly try to keep updating my practices to meet the needs of the workplace. I focus on writing accessible HTML, using modern CSS practices and writing clean JavaScript. When writing JS code, I mostly use React, but I can adapt to whatever tools are required. I'm based in SJO, Costa Rica, but I'm happy working remotely and have experience in remote teams. When I'm not coding, you'll find me making experimental short-films, painting or giving yoga classes. Je parle Français, Español and English. I also have experience with:`,
         word: [
         {
-            skill:'Lodash Library',
+            skill:'JavaScript',
             id:0
         },
         {
-            skill:'Templating with Handlebars',
+            skill:'React',
             id:1
         },
         {
@@ -20,35 +20,35 @@ export default [
             id:3
         },
         {
-            skill:'Node.js',
+            skill:'Redux',
             id:4
         },
         {
-            skill:'Express',
+            skill:'SCSS',
             id:5
         },
         {
-            skill:'SQL and Databases',
+            skill:'REGEX',
             id:6
         },
         {
-            skill:'Persistent API',
+            skill:'RESTful APIs',
             id:7
         },
         {
-            skill:'Write Tests With Mocha',
+            skill:'SQL and Databases',
             id:8
         },
         {
-            skill:'Mongoose',
+            skill:'Bootstrap',
             id:9
         },
         {
-            skill:'JS Promises',
+            skill:'SASS',
             id:10
         },
         {
-            skill:'Error Handling',
+            skill:'JQuery',
             id:11
         },
         {
@@ -56,7 +56,7 @@ export default [
             id:12
         },
         {
-            skill:'Node-SQLite',
+            skill:'Algorithms and Data Structures',
             id:13
         },{
             skill:'Test-driven development',

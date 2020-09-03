@@ -45,7 +45,7 @@ class App extends React.Component {
                   </Route>
                   <Route path="/portafolio/:id" component={PortafolioHook} exact>
                   </Route>
-                  <Route path="/Webdevelopment" component={Webdevelopment} exact>
+                  <Route path="/Certifications" component={Webdevelopment} exact>
                   </Route>
                   <Route path='/portfolio' exact>
                     <Portafolio />
