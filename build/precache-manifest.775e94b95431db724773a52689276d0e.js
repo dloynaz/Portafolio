@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2446a49f749e08660133aeeb7354be1",
+    "revision": "6cee75a1fb63edd856e68ca6222f6110",
     "url": "/index.html"
   },
   {
-    "revision": "65040d9539bd409ebedd",
+    "revision": "1b9702426f6d3d6c3632",
     "url": "/static/css/main.f62585ff.chunk.css"
   },
   {
-    "revision": "aaf3ba95995e04e62906",
-    "url": "/static/js/2.28bfbbd4.chunk.js"
+    "revision": "7731c5dd82e38cf9f85a",
+    "url": "/static/js/2.6542aab9.chunk.js"
   },
   {
     "revision": "dd207babaeb913476be46155cc504ef5",
-    "url": "/static/js/2.28bfbbd4.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.6542aab9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "65040d9539bd409ebedd",
-    "url": "/static/js/main.ab7a7f16.chunk.js"
+    "revision": "1b9702426f6d3d6c3632",
+    "url": "/static/js/main.6e66501b.chunk.js"
   },
   {
     "revision": "4569d4d938faf031954c",
@@ -112,12 +112,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Web1.6431b5f3.png"
   },
   {
+    "revision": "5eb4c66f298da674d5601f321f13cd3f",
+    "url": "/static/media/Web2.5eb4c66f.JPG"
+  },
+  {
+    "revision": "5f0ece7750714b2adab93966959e350d",
+    "url": "/static/media/Web3.5f0ece77.JPG"
+  },
+  {
     "revision": "2bd76b88626c0749539106d7395618f5",
     "url": "/static/media/github.2bd76b88.jpg"
   },
   {
+    "revision": "4d371b28daabbb1c519ae0f86b9c94f8",
+    "url": "/static/media/videoA-Countries.4d371b28.webm"
+  },
+  {
     "revision": "a812efc5b3d5df6569c04f67dea70ba5",
     "url": "/static/media/videoA-Dashboard.a812efc5.webm"
+  },
+  {
+    "revision": "505bb2dfa0ab7aba870274a57eaf37a9",
+    "url": "/static/media/videoA-FCC.505bb2df.webm"
   },
   {
     "revision": "318dc1a0e0d9451938deda0e76aff3d1",
@@ -140,8 +156,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/videoA-ravenous.2a03516d.webm"
   },
   {
+    "revision": "fd53a08b0830144b55235fa93554ed33",
+    "url": "/static/media/videoB-Countries.fd53a08b.webm"
+  },
+  {
     "revision": "f97c44eee48db27887159e30b353dba3",
     "url": "/static/media/videoB-Dashboard.f97c44ee.webm"
+  },
+  {
+    "revision": "5526a69b7b3a9f2e8a6f60cc87cf9d59",
+    "url": "/static/media/videoB-FCC.5526a69b.webm"
   },
   {
     "revision": "43d4a909104f78c69d82518cc7e3a20e",
