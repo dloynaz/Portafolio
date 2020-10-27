@@ -25,4 +25,7 @@ export {default as videoBCountries} from './videoB-Countries.webm'
 export {default as videoAFCC} from './videoA-FCC.webm'
 export {default as videoBFCC} from './videoB-FCC.webm'
 
+export {default as videoAart} from './videoA-Art.webm'
+export {default as videoBart} from './videoB-Art.webm'
+
 
