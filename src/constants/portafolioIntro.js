@@ -2,7 +2,7 @@ export default [
     {
         Intro: `Now you will see a list of projects that I developed throughout my learning process. This includes Codecademy's career path in `,
         webDevelpment: 'Web Development',
-        Intro2:`, a set of codechallenges from Wes Boss, projects carried out from the Front-end Mentor platform, private tutoring with local programmers and the final Free CodeCamp projects of the courses: `,
+        Intro2:`, a set of codechallenges from Wes Boss, projects developed entirely on my own inspired by proposals from the Front-end Mentor platform, private tutoring with local programmers and the final Free CodeCamp projects of the courses: `,
         FCCfirst: `Front End Libraries`,
         and: ` and `,
         FCCsecond: `JavaScript Algorithms and Data Structures`,
