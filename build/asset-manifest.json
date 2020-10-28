@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.f62585ff.chunk.css",
-    "main.js": "/static/js/main.4eeaa873.chunk.js",
-    "main.js.map": "/static/js/main.4eeaa873.chunk.js.map",
+    "main.js": "/static/js/main.9a63f8af.chunk.js",
+    "main.js.map": "/static/js/main.9a63f8af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6109b15a.js",
     "runtime-main.js.map": "/static/js/runtime-main.6109b15a.js.map",
     "static/js/2.0fbedaaf.chunk.js": "/static/js/2.0fbedaaf.chunk.js",
     "static/js/2.0fbedaaf.chunk.js.map": "/static/js/2.0fbedaaf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5e8e417eafec3e3c22ed4f25e3907cdc.js": "/precache-manifest.5e8e417eafec3e3c22ed4f25e3907cdc.js",
+    "precache-manifest.b8b82be14d19b3791cb42463af9281d4.js": "/precache-manifest.b8b82be14d19b3791cb42463af9281d4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f62585ff.chunk.css.map": "/static/css/main.f62585ff.chunk.css.map",
     "static/js/2.0fbedaaf.chunk.js.LICENSE.txt": "/static/js/2.0fbedaaf.chunk.js.LICENSE.txt",
@@ -37,7 +37,7 @@
     "static/media/Web2.JPG": "/static/media/Web2.5eb4c66f.JPG",
     "static/media/Web3.JPG": "/static/media/Web3.5f0ece77.JPG",
     "static/media/github.jpg": "/static/media/github.2bd76b88.jpg",
-    "static/media/videoA-Art.webm": "/static/media/videoA-Art.35bed390.webm",
+    "static/media/videoA-Art.webm": "/static/media/videoA-Art.483481a6.webm",
     "static/media/videoA-Countries.webm": "/static/media/videoA-Countries.4d371b28.webm",
     "static/media/videoA-Dashboard.webm": "/static/media/videoA-Dashboard.a812efc5.webm",
     "static/media/videoA-FCC.webm": "/static/media/videoA-FCC.505bb2df.webm",
@@ -46,7 +46,7 @@
     "static/media/videoA-codeChallenges.webm": "/static/media/videoA-codeChallenges.9ea65816.webm",
     "static/media/videoA-portafolio.webm": "/static/media/videoA-portafolio.644b9c4a.webm",
     "static/media/videoA-ravenous.webm": "/static/media/videoA-ravenous.2a03516d.webm",
-    "static/media/videoB-Art.webm": "/static/media/videoB-Art.2ded3751.webm",
+    "static/media/videoB-Art.webm": "/static/media/videoB-Art.4cc1655e.webm",
     "static/media/videoB-Countries.webm": "/static/media/videoB-Countries.fd53a08b.webm",
     "static/media/videoB-Dashboard.webm": "/static/media/videoB-Dashboard.f97c44ee.webm",
     "static/media/videoB-FCC.webm": "/static/media/videoB-FCC.5526a69b.webm",
@@ -59,6 +59,6 @@
     "static/js/runtime-main.6109b15a.js",
     "static/js/2.0fbedaaf.chunk.js",
     "static/css/main.f62585ff.chunk.css",
-    "static/js/main.4eeaa873.chunk.js"
+    "static/js/main.9a63f8af.chunk.js"
   ]
 }
