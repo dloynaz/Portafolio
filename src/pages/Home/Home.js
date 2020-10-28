@@ -101,12 +101,11 @@ function Home() {
         loop
         muted
         controls={false}
-        height='400px'
-        width='1250px'
-        className='Background'>
-
+        width="100%" 
+        height="100%"
+        className='Background'
+        playsinline >
         <source src={background} type='video/mp4' />
-
       </video>
       <div className="gridContainer">
         <div className="gridItemA">
