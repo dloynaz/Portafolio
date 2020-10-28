@@ -8,7 +8,6 @@
 .NavList{
     display: flex;
     list-style-type: none;
-    width: 300px;
     float: right;
     margin: 2rem;
 }
@@ -33,7 +32,17 @@
 
 
 @media screen and (max-width: 40em) {
+    .navBackground{
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 3fr;
+        grid-template-rows: 1fr;
+        padding-right: 0%;
+    }
     .NavList{
-        transform: scale(0.7);
+       display: flex;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
     }
   }

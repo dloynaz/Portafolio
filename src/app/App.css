@@ -82,6 +82,11 @@ Nav {
 
 
 @media only screen and (max-width: 800px) {
+  Nav {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
   .page{
     position: relative;
     top: 0px;

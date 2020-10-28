@@ -13,7 +13,7 @@ function Nav() {
           <ul className="NavList">  
             {links.map((link) => (
                 <li className="NavItem">
-                  <Link to={link.destination} style={{  color: 'inherit', textDecoration: 'none', marginLeft:'20px' }} >{link.label}</Link>
+                  <Link to={link.destination} style={{  color: 'inherit', textDecoration: 'none' }} >{link.label}</Link>
                 </li>
             ))}  
           </ul>

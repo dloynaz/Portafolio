@@ -31,7 +31,7 @@ function Portafolio(){
   
     return(
         <div style={{ height: "100vh"}} className='page' id="Portafolio">
-        <div>
+        <div style={{overflowX:"hidden"}}>
           <ReactPlayer
           playsInline
           url={Texture2}
@@ -45,7 +45,7 @@ function Portafolio(){
           
           className="portafolioVideo"
           />
-          <p style={{margin: '0 auto', backgroundColor:'White', zIndex:'1000', position:'relative', bottom:'200px', padding:'20px', fontSize:'1.5rem'}}>
+          <p className="textBox" style={{margin: '0 auto', backgroundColor:'White', position:'relative', bottom:'200px', padding:'20px', fontSize:'1.2rem'}}>
           {portafolioIntro.map(info => info.Intro)}
           <Link to="/Certifications" style={webStyle}>{portafolioIntro.map(info => info.webDevelpment)}</Link>
           {portafolioIntro.map(info => info.Intro2)}  
