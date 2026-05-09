@@ -1,0 +1,108 @@
+.glassmorphism-card {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  margin: auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.glassmorphism-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+}
+
+.glass-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 18px;
+}
+
+.glass-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.05) 100%
+  );
+  pointer-events: none;
+  border-radius: 18px;
+}
+
+.glass-glow {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  border-radius: 50%;
+  filter: blur(30px);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.glassmorphism-card:hover .glass-glow {
+  opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .glassmorphism-card {
+    width: 280px;
+    height: 360px;
+  }
+}
+
+/* Subtle floating animation when not hovering */
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.5deg);
+  }
+}
+
+/* Animation on load */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.glassmorphism-card {
+  animation: slideInUp 0.6s ease;
+}
+
+.glassmorphism-card:not(:hover) {
+  animation: slideInUp 0.6s ease, gentleFloat 6s ease-in-out infinite 0.6s;
+}
+
+.glassmorphism-card:hover {
+  animation: none;
+}

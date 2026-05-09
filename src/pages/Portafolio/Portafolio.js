@@ -25,7 +25,10 @@ function Portafolio(){
     const timer2 = setTimeout(() => {
       setWebStyle({color:'black', transition:'2s', fontSize:'100%'})
     }, 6000);   
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer);
+      clearTimeout(timer2);
+    };
   }, [])
 
   
@@ -41,17 +44,17 @@ function Portafolio(){
           controls={false}
           height='367px'
           width='1160px'
-          loop autoPlay
-          
           className="portafolioVideo"
           />
           <p className="textBox" style={{margin: '0 auto', backgroundColor:'White', position:'relative', bottom:'200px', padding:'20px', fontSize:'1.2rem'}}>
-          {portafolioIntro.map(info => info.Intro)}
-          <Link to="/Certifications" style={webStyle}>{portafolioIntro.map(info => info.webDevelpment)}</Link>
-          {portafolioIntro.map(info => info.Intro2)}  
-          <Link to="/Certifications" style={webStyle}>{portafolioIntro.map(info => info.FCCfirst)}</Link> 
-          {portafolioIntro.map(info => info.and)}  
-          <Link to="/Certifications" style={webStyle}>{portafolioIntro.map(info => info.FCCsecond)}</Link> 
+          {portafolioIntro.intro}
+          {portafolioIntro.trainingIntro}
+          <Link to="/Certifications" style={webStyle}>{portafolioIntro.trainingLinkText}</Link>
+          {portafolioIntro.trainingOutro}
+          <Link to="/Certifications" style={webStyle}>{portafolioIntro.fccFirst}</Link>
+          {portafolioIntro.andText}
+          <Link to="/Certifications" style={webStyle}>{portafolioIntro.fccSecond}</Link>
+          {portafolioIntro.intro3}
           </p>
 
 

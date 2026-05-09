@@ -4,6 +4,7 @@ import PortafolioNav from './PortafolioNav/PortafolioNav'
 import PortafolioIntroNav from './PortafolioIntroNav/PortafolioIntroNav'
 import Cursor from './Cursor'
 import Webdevelopment from './Webdevelopment/Webdevelopment'
+import GlassmorphismCard from './GlassmorphismCard/GlassmorphismCard'
 
 export {
     Nav,
@@ -11,5 +12,6 @@ export {
     PortafolioNav,
     PortafolioIntroNav,
     Cursor,
-    Webdevelopment
+    Webdevelopment,
+    GlassmorphismCard
 }

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Contact.css'
 import { contact } from '../../constants'
 
@@ -52,7 +52,7 @@ function Contact() {
 
     const MouseEnter = () => {
         var vid = document.getElementById("myVideo");
-        speed == 8 ? setSpeed(0.5) : setSpeed(8)
+        speed === 8 ? setSpeed(0.5) : setSpeed(8)
         vid.playbackRate = speed;
 
 
@@ -64,17 +64,17 @@ function Contact() {
 
     return (
         <div className='page' id="contact">
-            <div className="titleWrapper1"onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
-                <h1 class="titleAstyle">{contact.map(item => item.message)}</h1>
+            <div className="titleWrapper1" onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
+                <h1 className="titleAstyle">{contact.map(item => item.message)}</h1>
             </div>
             <div className="titleWrapper2" onMouseEnter={MouseEnter} onMouseLeave={MouseEnter}>
-                <a style={{ textDecoration: 'none', color: '#2F4F4F' }} href="mailto:davidloynazdev@gmail.com"><h2 onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} class="titleAstyle">{contact.map(item => item.phoneNumber)}</h2></a>
+                <a style={{ textDecoration: 'none', color: '#2F4F4F' }} href="mailto:davidloynazdev@gmail.com"><h2 onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="titleAstyle">{contact.map(item => item.phoneNumber)}</h2></a>
             </div>
             <div className="titleWrapper3" onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
-                <h3 class="titleAstyle" >{contact.map(item => item.email)}</h3>
+                <h3 className="titleAstyle" >{contact.map(item => item.email)}</h3>
             </div>
             <div className="line" onMouseEnter={MouseEnter} onMouseLeave={MouseEnter} >
-                <div class="lineStyle"></div>
+                <div className="lineStyle"></div>
             </div>
             <div className="videoWrapper" >
                 <video

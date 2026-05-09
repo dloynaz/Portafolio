@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { render } from '@testing-library/react'
 import { home } from '../constants'
 
 
@@ -20,7 +19,7 @@ import { home } from '../constants'
 
       function wordFind() {
         let words = home.map(item => item.word)
-        let find = words.map(item => item.find(i => i.id == seconds))
+        let find = words.map(item => item.find(i => i.id === seconds))
         let skill = find.map(item => item.skill)
         setWord(skill)
       }
@@ -33,7 +32,7 @@ import { home } from '../constants'
             //setWord(() => seconds == 3 || seconds == 10 ? 'three' : 'hello');
             wordFind()
           }, 1000);
-          if (seconds == 20) { 
+          if (seconds === 20) { 
                setSeconds(0) }
         } else if (!isActive && seconds !== 0) {
           clearInterval(interval);

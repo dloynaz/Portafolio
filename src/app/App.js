@@ -39,7 +39,7 @@ class App extends React.Component {
                 classNames="fade"
                 exit={false}
               >
-                <Switch locacation={location}>
+                <Switch location={location}>
                   <Route path='/contact'>
                     <Contact />
                   </Route>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Component } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { Watercolor } from '../../assets/PortafolioAsset/Video/index'
 
@@ -12,7 +12,6 @@ function Webdevelopment() {
 
     const [opacity, setOpacity] = useState({
         position: 'absolute',
-        zIndex: '-1000',
         width: '100%',
         height: '100%',
         top: '50%',
@@ -29,7 +28,6 @@ function Webdevelopment() {
      
             setOpacity({
                 position: 'absolute',
-                zIndex: '-1000',
                 width: '100%',
                 height: '100%',
                 top: '50%',
@@ -49,9 +47,9 @@ function Webdevelopment() {
     return (
         <div className="page" style={{minHeight:'1000px', height:'100%'}}>
             <div className="devContainer">
-                <img src={Web1} className="development" id='dev1'></img>
-                <img src={Web2} className="development" id='dev1'></img>
-                <img src={Web3} className="development" id='dev1'></img>
+                <img src={Web1} className="development" id='dev1' alt="Web development example 1"></img>
+                <img src={Web2} className="development" id='dev1' alt="Web development example 2"></img>
+                <img src={Web3} className="development" id='dev1' alt="Web development example 3"></img>
                 <video 
                 autoPlay
                 loop 

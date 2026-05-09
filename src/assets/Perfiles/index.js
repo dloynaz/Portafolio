@@ -1,11 +1,2 @@
-export { default as Perfil1 } from './Favorita-5 10.27.57.jpg'
-export { default as Perfil3 } from './Favorita 3 10.27.57.jpg'
-export { default as Perfil4 } from './Favorita 4 10.27.57.jpg'
-export { default as Perfil5 } from './Favorita 6 10.27.57.jpg'
-export { default as Perfil6 } from './Favorita 7 10.27.57.jpg'
-export { default as Perfil7 } from './Favorita 9 10.27.57.jpg'
-export { default as Perfil8 } from './Favorita 10 10.27.57.jpg'
-export { default as Perfil9 } from './Favorita 11 10.27.57.jpg'
-export { default as Perfil10 } from './Favorita 12 10.27.57.jpg'
-export { default as Perfil11 } from './Favorita 13 10.27.57.jpg'
+export { default as Perfil1 } from './david bw.jpg'
 

@@ -1,5 +1,5 @@
 export default [ {
   message:"Let's do something great",
-  email:"11801/SJO/Costa Rica - 2020 ",
+  email:"Central Europe - 2026 ",
   phoneNumber:'davidloynazdev@gmail.com'
 }]

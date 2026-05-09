@@ -37,7 +37,7 @@ div{
 }
 
 .gridContainer{
-    row-gap: 100px;
+    row-gap: 0px;
     column-gap: 30px ;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -45,6 +45,15 @@ div{
     max-width: 1600px;
     margin: 0 auto;
     margin-bottom: 5%
+}
+
+.gridItemProfile{
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    justify-self: center;
+    align-self: center;
+    z-index: 1000;
 }
 
 .gridItemA{
@@ -66,6 +75,7 @@ div{
     grid-column-end: 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
     align-self: start;
     
 }
@@ -86,6 +96,7 @@ div{
     align-self: center;
     position: static;
     grid-column-start: 1;
+    grid-row-start: 1;
     width: 385px;
     margin: 0px;
     justify-self: center;
@@ -96,6 +107,7 @@ p{
     align-self: center;
     justify-self: center;
     grid-column-start: 2;
+    grid-row-start: 1;
     font-size: 2rem;
     max-width: 450px;;
     font-family: 'Raleway', sans-serif;
@@ -207,6 +219,10 @@ p{
       justify-content: center;
   }
   
+  .gridItemProfile{
+      display: none;
+  }
+  
   .gridItemA{
       display: flex;
       flex-direction: column;
@@ -218,6 +234,7 @@ p{
       grid-column-start: 1;
       max-width: 400px;
       background-color: white;
+      order: 1;
   }
   
   .gridItemB{
@@ -231,6 +248,7 @@ p{
       align-self: start;
       justify-self: center;
       margin: auto;
+      order: 2;
 
       
   }
@@ -266,7 +284,6 @@ p{
       grid-row: 2;
       font-family: 'Raleway', sans-serif;
       text-align: justify;
-      margin-top: 20%;
       margin-bottom: 20%;
   }
   

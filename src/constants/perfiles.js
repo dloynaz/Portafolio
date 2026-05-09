@@ -1,11 +1,5 @@
 import {
-    Perfil1, 
-    Perfil3, Perfil4,
-    Perfil5, Perfil6,
-    Perfil7, Perfil8,
-    Perfil9, Perfil10,
-    Perfil11
-
+    Perfil1
 } from '../assets/Perfiles/index'
 
 export default [
@@ -14,39 +8,39 @@ export default [
         id: 1
     },
     {
-        photo: Perfil3,
+        photo: Perfil1,
         id: 2
     },
     {
-        photo: Perfil4,
+        photo: Perfil1,
         id: 3
     },
     {
-        photo: Perfil5,
+        photo: Perfil1,
         id: 4
     },
     {
-        photo: Perfil6,
+        photo: Perfil1,
         id: 5
     },
     {
-        photo: Perfil7,
+        photo: Perfil1,
         id: 6
     },
     {
-        photo: Perfil8,
+        photo: Perfil1,
         id: 7
     },
     {
-        photo: Perfil9,
+        photo: Perfil1,
         id: 8
     },
     {
-        photo: Perfil10,
+        photo: Perfil1,
         id: 9
     },
     {
-        photo: Perfil11,
+        photo: Perfil1,
         id: 10
     }
 
