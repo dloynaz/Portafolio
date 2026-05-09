@@ -17,6 +17,13 @@
 }
 
 @media screen and (max-width: 40em) {
+  .portafolioNavWrapper {
+    margin-top: 40px;
+    height: 80px !important;
+  }
+  .portafolioNavWrapper > a {
+    height: 80px !important;
+  }
   .Next{
     transform: scale(0.7);
   }

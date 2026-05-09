@@ -16,8 +16,8 @@ import PortafolioNav from '../components/PortafolioNav/PortafolioNav'
 
 function PortafolioHook({ match }) {
 
-
-    const [portafolioId, setPortafolio] = useState({})
+    const id = Number(match.params.id)
+    const [portafolioId, setPortafolio] = useState(null)
     const [buttonStyle, setbuttonStyle] = useState(
         {
             color: 'inherit',
@@ -42,8 +42,13 @@ function PortafolioHook({ match }) {
         }
     )
 
+    const loadPortfolioItem = () => {
+        const found = portafolio.find(item => item.id === id)
+        setPortafolio(found || null)
+    }
+
     useEffect(() => {
-        fetch();
+        loadPortfolioItem();
         const timer = setTimeout(() => {
             window.scrollTo(0, 0)
             setbuttonStyle(
@@ -69,22 +74,25 @@ function PortafolioHook({ match }) {
 
         }, 1000);
         return () => clearTimeout(timer);
-    }, [match]);
+    }, [id]);
 
 
 
 
 
-
-const fetch = async () => {
-    const found = await portafolio.find(item => item.id == match.params.id)
-    setPortafolio(found)
-}
 
 const onclick = () => {
     setbuttonStyle()
 }
 
+
+if (!portafolioId) {
+    return (
+        <div className="page" id="portafolioHook" style={{ marginLeft: '10%', marginRight: '10%', marginBottom: '5%' }}>
+            <p>Loading portfolio item...</p>
+        </div>
+    )
+}
 
 return (
     <div style={{ marginLeft: '10%', marginRight: '10%', marginBottom: '5%'}} className="page" id="portafolioHook">
@@ -100,7 +108,6 @@ return (
                     controls={false}
                     width='100%'
                     height='100%'
-                    loop autoPlay
                 />
             </div>
             <div className="infoA" style={opacity}>
@@ -155,17 +162,15 @@ return (
                 controls={false}
                 width='66%'
                 height='66%'
-                loop autoPlay
                 className='videoB'
                 style={opacity}
             />
 
             <div className="visit">
-                <a target="_blank" href={portafolioId.link} className="clickButton"
-                    onclick={onclick}
+                <a rel="noopener noreferrer" target="_blank" href={portafolioId.link} className="clickButton"
+                    onClick={onclick}
                     style={buttonStyle}>{portafolioId.visit}
                 </a>
-
             </div>
 
         </div>
