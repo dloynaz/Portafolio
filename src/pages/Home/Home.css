@@ -133,6 +133,21 @@ p{
     align-self: center;
 }
 
+.aboutLink {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.aboutLink:hover,
+.aboutLink:focus {
+    color: #386f5e;
+    border-color: transparent;
+    transform: translateY(-1px);
+}
+
 .AboutMe{
     transition: 0.4s ease-in-out;
     grid-column-start: 2;
@@ -150,10 +165,13 @@ p{
 
 .Background{
     height: 400px;
-    width: 1250px;
+    width: 100%;
+    object-fit: cover;
     position: absolute;
-    left:50%;
-    margin-left: -625px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
 }
 
 @media only screen and (max-width: 1100px) {
